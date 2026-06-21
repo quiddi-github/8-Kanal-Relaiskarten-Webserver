@@ -88,3 +88,10 @@ byte mac[] = { 0x1E, 0xAD, 0x2E, 0xEF, 0xFE, 0xEA };
 IPAddress ip(192, 168, 0, 199);
 IPAddress gateway(192, 168, 0, 253);
 IPAddress subnet(255, 255, 255, 0);
+
+
+---
+
+### Update vom 21. Juni 2026
+
+In der Version vom 27. Februar 2026 war der Webserver tot, nachdem das Netzwerkkabel getrennt wurde. Dies ist nun behoben und der Webserver ist somit auch sicher gegen vergangene Netzwerkaussetzer. 
